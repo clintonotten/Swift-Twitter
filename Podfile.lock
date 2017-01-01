@@ -1,0 +1,12 @@
+PODS:
+  - LBTAComponents (0.1.6)
+
+DEPENDENCIES:
+  - LBTAComponents
+
+SPEC CHECKSUMS:
+  LBTAComponents: fc43509c70467cc3c1cdd89c87daa84f70c8ab0d
+
+PODFILE CHECKSUM: 39353c417b4138addb91fbdab14fc151ab4e23f2
+
+COCOAPODS: 1.1.1
