@@ -6,7 +6,5 @@ target 'Swift Twitter' do
   use_frameworks!
 
   # Pods for Swift Twitter
-  pod "LBTAComponents"
-
-
+  pod 'LBTAComponents', '~> 0.1.9'
 end
