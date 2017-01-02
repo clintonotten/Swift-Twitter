@@ -22,8 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let homeController = HomeController(collectionViewLayout: UICollectionViewFlowLayout())
-        window?.rootViewController = UINavigationController.init(rootViewController: homeController)
+//        let homeController = HomeController(collectionViewLayout: UICollectionViewFlowLayout())
+//        window?.rootViewController = UINavigationController.init(rootViewController: homeController)
+        
+        window?.rootViewController = UINavigationController.init(rootViewController: TwitterDataSource())
         
         return true
     }
